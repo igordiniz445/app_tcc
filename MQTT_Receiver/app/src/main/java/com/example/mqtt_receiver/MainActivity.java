@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
     private Button btn;
     private TextView txt, qos0, qos1, qos2;
     private String report = "";
-    private final int QTD_MSG_TESTE = 10;
+    private final int QTD_MSG_TESTE = 1000;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

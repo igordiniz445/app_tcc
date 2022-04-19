@@ -48,12 +48,24 @@ public class MainActivity extends AppCompatActivity {
         calcular.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(), "Logo logo", Toast.LENGTH_LONG).show();
+                int media0 = 0;
+                int media1 = 0;
+                int media2 = 0;
+                try{
+                media0 = 100/c0;
+                media1 = 100/c1;
+                media2 = 100/c2;
+
+                }catch(Exception e){
+                    Toast.makeText(getApplicationContext(), "Teve uma divisao por 0 hem", Toast.LENGTH_LONG).show();
+                }
+                resultado.setText("Media QoS0: "+media0
+                +"\nMedia QoS: "+media1
+                +"\nMedia QoS: "+media2);
+                Toast.makeText(getApplicationContext(), "Calulado", Toast.LENGTH_LONG).show();
             }
         });
         init();
-
-
 
     }
 
