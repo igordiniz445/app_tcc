@@ -1,123 +1,135 @@
 <?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
 
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
-    android:background="@color/cardview_dark_background"
-    android:layout_height="match_parent"
-    android:layout_gravity="center"
-    tools:context=".MainActivity"
-    android:padding="60px"
-    android:layout_width="match_parent">
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:orientation="vertical"
+            android:background="@color/cardview_dark_background"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            tools:context=".MainActivity"
+            android:padding="60px"
+            android:layout_width="match_parent">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:textColor="@color/white"
-        android:textSize="20dp"
-        android:text="APP DO TCC">
-    </TextView>
-    <View
-        android:layout_height="40px" android:layout_width="match_parent"/>
-    <TextView
-        android:id="@+id/txtStatus"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Status da conexao: "
-        android:textColor="@color/white"/>
-    <View
-        android:layout_height="40px" android:layout_width="match_parent"/>
-    <Button
-        android:id="@+id/btnTestQoS0"
-        android:layout_gravity="center"
-        android:text="Iniciar teste QOS 0"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-    <View
-        android:layout_height="40px" android:layout_width="match_parent"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Mensagens enviadas : "
-        android:textColor="@color/white"
-        android:id="@+id/txtMsgSentQoS0"/>
-    <View
-        android:layout_height="40px" android:layout_width="match_parent"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Mensagens recebidas : "
-        android:textColor="@color/white"
-        android:id="@+id/txtMsgReceivedQoS0"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:text="APP DO TCC">
+            </TextView>
+            <View
+                android:layout_height="40px" android:layout_width="match_parent"/>
+            <TextView
+                android:id="@+id/txtStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Status da conexao: "
+                android:textColor="@color/white"/>
+            <View
+                android:layout_height="40px" android:layout_width="match_parent"/>
+            <Button
+                android:id="@+id/btnTestQoS0"
+                android:layout_gravity="center"
+                android:text="Iniciar teste QOS 0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <View
+                android:layout_height="40px" android:layout_width="match_parent"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mensagens enviadas : "
+                android:textColor="@color/white"
+                android:id="@+id/txtMsgSentQoS0"/>
+            <View
+                android:layout_height="40px" android:layout_width="match_parent"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mensagens recebidas : "
+                android:textColor="@color/white"
+                android:id="@+id/txtMsgReceivedQoS0"/>
 
-    <View
-        android:layout_height="40px" android:layout_width="match_parent"/>
-    <Button
-        android:id="@+id/btnTestQoS1"
-        android:layout_gravity="center"
-        android:text="Iniciar teste QOS 1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-    <View
-        android:layout_height="40px" android:layout_width="match_parent"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Mensagens enviadas : "
-        android:textColor="@color/white"
-        android:id="@+id/txtMsgSentQoS1"/>
-    <View
-        android:layout_height="40px" android:layout_width="match_parent"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Mensagens recebidas : "
-        android:textColor="@color/white"
-        android:id="@+id/txtMsgReceivedQoS1"/>
+            <View
+                android:layout_height="40px" android:layout_width="match_parent"/>
+            <Button
+                android:id="@+id/btnTestQoS1"
+                android:layout_gravity="center"
+                android:text="Iniciar teste QOS 1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <View
+                android:layout_height="40px" android:layout_width="match_parent"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mensagens enviadas : "
+                android:textColor="@color/white"
+                android:id="@+id/txtMsgSentQoS1"/>
+            <View
+                android:layout_height="40px" android:layout_width="match_parent"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mensagens recebidas : "
+                android:textColor="@color/white"
+                android:id="@+id/txtMsgReceivedQoS1"/>
 
-    <View
-        android:layout_height="40px" android:layout_width="match_parent"/>
-    <Button
-        android:id="@+id/btnTestQoS2"
-        android:layout_gravity="center"
-        android:text="Iniciar teste QOS 2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-    <View
-        android:layout_height="40px" android:layout_width="match_parent"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Mensagens enviadas : "
-        android:textColor="@color/white"
-        android:id="@+id/txtMsgSentQoS2"/>
-    <View
-        android:layout_height="40px" android:layout_width="match_parent"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Mensagens recebidas : "
-        android:textColor="@color/white"
-        android:id="@+id/txtMsgReceivedQoS2"/>
+            <View
+                android:layout_height="40px" android:layout_width="match_parent"/>
+            <Button
+                android:id="@+id/btnTestQoS2"
+                android:layout_gravity="center"
+                android:text="Iniciar teste QOS 2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <View
+                android:layout_height="40px" android:layout_width="match_parent"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mensagens enviadas : "
+                android:textColor="@color/white"
+                android:id="@+id/txtMsgSentQoS2"/>
+            <View
+                android:layout_height="40px" android:layout_width="match_parent"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mensagens recebidas : "
+                android:textColor="@color/white"
+                android:id="@+id/txtMsgReceivedQoS2"/>
 
-    <View
-        android:layout_height="80px" android:layout_width="match_parent"/>
-    <Button
-        android:id="@+id/btnCalculateResult"
-        android:layout_gravity="center"
-        android:text="Calcular resultados"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+            <View
+                android:layout_height="80px" android:layout_width="match_parent"/>
+            <Button
+                android:id="@+id/btnCalculateResult"
+                android:layout_gravity="center"
+                android:text="Calcular resultados"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
 
-    <View
-        android:layout_height="40px" android:layout_width="match_parent"/>
+            <View
+                android:layout_height="40px" android:layout_width="match_parent"/>
 
-    <TextView
-        android:textColor="@color/white"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/result"
-        android:text="RESULTADO : " />
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/result"
+                android:text="RESULTADO : " />
 
-</LinearLayout>
+            <View
+                android:layout_height="80px" android:layout_width="match_parent"/>
+            <Button
+                android:id="@+id/btnReset"
+                android:layout_gravity="center"
+                android:text="Resetar infos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+</ScrollView>
